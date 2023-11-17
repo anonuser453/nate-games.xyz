@@ -22,12 +22,8 @@ body {
 }
 
 .number-slide2 {
-  background: rgb(255, 75, 64);
-  background: linear-gradient(
-    128deg,
-    rgba(255, 154, 63, 1) 0%,
-    rgba(255, 75, 64, 1) 100%
-  );
+  background: #333;
+  background: linear-gradient(128deg, #111 0%, #333 100%);
 }
 
 .number-slide3 {
