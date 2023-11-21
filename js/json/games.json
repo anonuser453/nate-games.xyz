@@ -187,6 +187,12 @@
     "tags": "html5, kids"
   },
   {
+    "url": "/game/?geometry-dash",
+    "imageSrc": "/game/img/geometrydash.svg",
+    "name": "Geometry Dash",
+    "hotGame": true
+  },
+  {
     "url": "/game/?paperio-3d",
     "imageSrc": "/game/img/paperio-3d.jpg",
     "name": "Paper.io 3d",
@@ -302,7 +308,7 @@
   },
   {
     "url": "/game/?fnf",
-    "imageSrc": "https://cdn.nate-games.xyz/fnf/game/fnf.avif",
+    "imageSrc": "/game/img/friday-night-funkin.webp",
     "name": "Friday Night Funkin'",
     "tags": "html5, intense, singleplayer, action, fnf"
   },
@@ -353,36 +359,6 @@
     "imageSrc": "/game/img/fnaf.jpg",
     "name": "FNAF",
     "tags": "fnaf, html5, horror"
-  },
-  {
-    "url": "/0/g/fnaf-2/",
-    "imageSrc": "/0/g/fnaf-2/game/splash.webp",
-    "name": "FNAF 2",
-    "tags": "fnaf, scratch, horror"
-  },
-  {
-    "url": "/0/g/fnaf-3/",
-    "imageSrc": "/0/g/fnaf-3/game/splash.webp",
-    "name": "FNAF 3",
-    "tags": "fnaf, unity, horror"
-  },
-  {
-    "url": "/0/g/fnaf-3scratch/",
-    "imageSrc": "/0/g/fnaf-3scratch/game/splash.jpg",
-    "name": "FNAF 3 (Scratch)",
-    "tags": "fnaf, scratch, horror"
-  },
-  {
-    "url": "/game/?fnaf-4",
-    "imageSrc": "/game/img/fnaf-4.webp",
-    "name": "FNAF 4",
-    "tags": "fnaf, scratch, horror"
-  },
-  {
-    "url": "/0/g/fnaf-5/",
-    "imageSrc": "https://play-lh.googleusercontent.com/u9wx5aNNV6Yn4sJpi7uPBiElRnfAp1zUrn8Xqb4Dx_WBoOPHlB6G6gaYLI-mEXyABPnz",
-    "name": "FNAF: Sister Location",
-    "tags": "fnaf, scratch, horror"
   },
   {
     "url": "/0/g/fnaf-fp/",
@@ -489,7 +465,7 @@
   },
   {
     "url": "/game/?slither-io",
-    "imageSrc": "https://play-lh.googleusercontent.com/oObkhKfUXOY5yzheKe9w1Y1pXZBgdiSksMeNmT0BijoQ8J75maTCIW2TA7-6pA6EMA",
+    "imageSrc": "/game/img/slither-io.jpg",
     "name": "Slither.io"
   },
   {
@@ -643,11 +619,6 @@
     "tags": "flash, tower-defense, ninjakiwi, btd, bloons"
   },
   {
-    "url": "./thumb-fighter/",
-    "imageSrc": "thumb-fighter/unnamed-processed.jpg",
-    "name": "Thumb Fighter"
-  },
-  {
     "url": "/game/?among-us",
     "imageSrc": "https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec=w240-h480-rw",
     "name": "Among Us"
@@ -671,11 +642,6 @@
     "url": "/game/?drift-hunters",
     "imageSrc": "/game/img/drift-hunters.png",
     "name": "Drift Hunters"
-  },
-  {
-    "url": "/game/?demolition-derby-3",
-    "imageSrc": "https://play-lh.googleusercontent.com/_96MKqR7vQJfEunLKi4oJVuv2jWrB3VEoAr6Rg2jSYic1fIqliqAX2F9zO4fENgZUE4",
-    "name": "Demolition Derby 3"
   },
   {
     "url": "./eggycar/",
@@ -713,11 +679,6 @@
     "name": "Jelly Mario Bros"
   },
   {
-    "url": "./sm64/",
-    "imageSrc": "sm64/splash.jpeg",
-    "name": "Super Mario 64 (JavaScript)"
-  },
-  {
     "url": "/game/?sm63",
     "imageSrc": "/game/img/sm63.jpg",
     "name": "Super Mario 63"
@@ -736,12 +697,6 @@
     "url": "/game/?deepest-sword",
     "imageSrc": "https://cdn.nate-games.xyz/deepest-sword/deepest-sword.webp",
     "name": "Deepest Sword"
-  },
-  {
-    "url": "/game/?geometry-dash",
-    "imageSrc": "/game/img/geometrydash.svg",
-    "name": "Geometry Dash",
-    "hotGame": true
   },
   {
     "url": "/game/?greybox",
@@ -850,7 +805,7 @@
   },
   {
     "url": "/0/g/smashkarts/",
-    "imageSrc": "/0/g/smashkarts/game/images/icon-512.png",
+    "imageSrc": "/game/img/smash-karts.png",
     "name": "Smash Karts"
   },
   {
@@ -944,21 +899,6 @@
     "url": "./msic/"
   },
   {
-    "name": "Run 1",
-    "imageSrc": "https://imgs2.dab3games.com/space-run-game.png",
-    "url": "./run/"
-  },
-  {
-    "name": "Run 2",
-    "imageSrc": "https://e.snmc.io/lk/lv/x/6a7ff2a04b7ce05f1ecbd5fd59c466df/10934781",
-    "url": "./run2/"
-  },
-  {
-    "name": "Run 3",
-    "imageSrc": "run3/unnamed.jpg",
-    "url": "./run3/"
-  },
-  {
     "name": "Basketball Stars",
     "imageSrc": "/game/img/basketball-stars.png",
     "url": "/game/?basketball-stars"
@@ -1027,12 +967,6 @@
     "name": "Duck Hunt",
     "imageSrc": "/game/img/duckhunt.png",
     "url": "/game/?duck-hunt"
-  },
-  {
-    "url": "/game/?tiny-yurts",
-    "imageSrc": "/game/img/tiny-yurts.webp",
-    "name": "Tiny Yurts",
-    "tags": "tycoon, kids, singleplayer"
   },
   {
     "name": "Stick Defenders",
