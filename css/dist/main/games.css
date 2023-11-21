@@ -10,9 +10,24 @@ h1 {
   font-size: 40px;
 }
 
+.game-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  justify-content: space-between;
+  margin: 30px;
+  grid-gap: 32px;
+}
+
 .game-card {
-  border-radius: 18%;
+  border-radius: 8px;
   display: inline-block;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 175px;
+  width: 250px;
   text-align: center;
   cursor: pointer;
   overflow: visible;
@@ -20,23 +35,80 @@ h1 {
 }
 
 .game-card h3 {
-  justify-content: center;
-  display: flex;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 15px;
+  color: #fff;
+  left: 0;
   font-size: 12px;
-  font-family: "Roboto", "Lato", Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-  align-items: center;
-  color: white;
+  opacity: 0;
+  transform: scale(0);
+  bottom: 0;
+  transition: 0.25s ease;
+  box-shadow: 0 0 24px 24px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.game-card:hover h3 {
+  transform: scale(1);
+  opacity: 1;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.9));
+}
+
+.game-card:hover {
+  box-shadow: 0  0 0 3px inset #ff5733; /* #4287f5 */
+  transform: scale(1.1);
 }
 
 .game-url {
   text-decoration: none;
 }
 
-.game-card:hover {
-  background-color: #ff5733; /* #4287f5 */
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
-  transform: scale(1.1);
+#hot_game::before {
+  content: "HOT \f06d";
+  position: absolute;
+  font-family: var(--font-family), "Font Awesome 6 Free";
+  display: inline-block;
+  height: 15px;
+  padding: 5px 10px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  background: linear-gradient(to top right, #ff5733, #ff9033);
+  border-radius: 5px 0 0 5px;
+  text-transform: uppercase;
+  top: -5px;
+  right: 0px;
+}
+
+
+#new_game::before {
+  content: "NEW!";
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  display: inline-block;
+  height: 15px;
+  padding: 2px 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  background: linear-gradient(to top right, #337dff, #33a8ff);
+  border-radius: 5px;
+  text-transform: uppercase;
+  top: 0;
+  right: 15px;
+  z-index: 9996;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.4s;
+  background-color: #1b1b1b;
 }
 
 .link {
@@ -66,19 +138,6 @@ h1 {
 
 .link:hover::after {
   transform: scaleX(1);
-}
-
-.game-card:active {
-  transform: scale(1);
-}
-
-.game-container {
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 175px);
-  justify-content: space-between;
-  margin: 30px;
-  grid-gap: 32px;
 }
 
 /* cssbuttons implementation */
@@ -204,70 +263,6 @@ footer a:hover::after {
 
 #game-count:active {
   transform: rotate3d(1, 1, 1, 360deg);
-}
-
-.image-container {
-  position: relative;
-  overflow: hidden;
-  border-radius: 31.5px; /*= 18%*/
-  height: 175px;
-  width: 175px;
-  margin-bottom: 10px;
-  margin: 0 auto;
-  object-fit: cover;
-}
-.image-container #hot_game::before {
-  content: "HOT";
-  font-family: Arial, Helvetica, sans-serif;
-  position: absolute;
-  display: inline-block;
-  height: 15px;
-  padding: 2px 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 600;
-  background: linear-gradient(to top right, #ff5733, #ff9033);
-  border-radius: 5px;
-  text-transform: uppercase;
-  top: 0;
-  right: 15px;
-  z-index: 9996;
-}
-
-.image-container #new_game::before {
-  content: "NEW!";
-  font-family: Arial, Helvetica, sans-serif;
-  position: absolute;
-  display: inline-block;
-  height: 15px;
-  padding: 2px 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 600;
-  background: linear-gradient(to top right, #337dff, #33a8ff);
-  border-radius: 5px;
-  text-transform: uppercase;
-  top: 0;
-  right: 15px;
-  z-index: 9996;
-}
-
-.image-container img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  transition: 0.4s;
-  background-color: #1b1b1b;
-}
-
-.game-card:hover .image-container img {
-  transform: scale(1.1);
-}
-
-.game-card:active .image-container img {
-  transform: scale(1);
 }
 
 /* Home start */

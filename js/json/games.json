@@ -235,26 +235,8 @@
     "tags": "html5, kids, action"
   },
   {
-    "url": "eaglercraft/",
-    "imageSrc": "eaglercraft/splash.jpg",
-    "name": "Eaglercraft (MC)",
-    "tags": "html5, kids, action"
-  },
-  {
-    "url": "/0/g/Paper Minecraft/",
-    "imageSrc": "/0/g/Paper Minecraft/game/y9m3lgup.bmp",
-    "name": "Paper Minecraft",
-    "tags": "html5, kids, action"
-  },
-  {
-    "url": "/0/g/minecraft-classic/",
-    "imageSrc": "/0/g/minecraft-classic/game/splash.jpg",
-    "name": "Minecraft Classic",
-    "tags": "html5, kids, action"
-  },
-  {
-    "url": "motox3m/",
-    "imageSrc": "motox3m/splash.jpg",
+    "url": "/0/g/motox3m/",
+    "imageSrc": "/0/g/motox3m/splash.jpg",
     "name": "Moto X3M",
     "tags": "html5, kids, action"
   },
@@ -361,28 +343,22 @@
     "tags": "construct"
   },
   {
+    "url": "/game/?fnaf-shooter",
+    "imageSrc": "/game/img/fnaf-shooter.png",
+    "name": "FNAF Shooter",
+    "tags": "fnaf, unity, horror"
+  },
+  {
     "url": "/game/?fnaf",
     "imageSrc": "/game/img/fnaf.jpg",
     "name": "FNAF",
     "tags": "fnaf, html5, horror"
   },
   {
-    "url": "/0/g/fnaf-webgl/",
-    "imageSrc": "/0/g/fnaf-webgl/game/splash.jpg",
-    "name": "FNAF (WebGL)",
-    "tags": "fnaf, unity, horror"
-  },
-  {
     "url": "/0/g/fnaf-2/",
     "imageSrc": "/0/g/fnaf-2/game/splash.webp",
     "name": "FNAF 2",
     "tags": "fnaf, scratch, horror"
-  },
-  {
-    "url": "/game/?fnaf-2-hacks",
-    "imageSrc": "https://cdn.nate-games.xyz/fnaf-2hacks/game/splash.png",
-    "name": "FNAF 2 (HACKS)",
-    "tags": "fnaf, html5, horror"
   },
   {
     "url": "/0/g/fnaf-3/",

@@ -10,16 +10,14 @@
     "imageSrc": "/game/img/shell-shockers.webp"
   },
   "baldis-basics": {
-    "pageMapping": "/3kh0/3kh0-assets/main/baldis-basics/index.html",
+    "pageMapping": "https://raw.githack.com/3kh0/3kh0-assets/main/baldis-basics/index.html",
     "imageSrc": "https://play-lh.googleusercontent.com/EPV1TB4So1lB0DGrdCVExDpNU8ML67nd8OqBeoOIM-s6sDicxmDdPvCXD6n7LKevFl0",
-    "gameTitle": "Baldi's Basics",
-    "usegithack": true
+    "gameTitle": "Baldi's Basics"
   },
   "greybox": {
-    "pageMapping": "/3kh0/3kh0-assets/main/greybox/index.html",
+    "pageMapping": "https://raw.githack.com/3kh0/3kh0-assets/main/greybox/index.html",
     "imageSrc": "/game/img/greybox.png",
-    "gameTitle": "Grey-Box Testing",
-    "usegithack": true
+    "gameTitle": "Grey-Box Testing"
   },
   "justfall.lol": {
     "pageMapping": "https://cdn.nate-games.xyz/just-fall/",
@@ -130,10 +128,9 @@
     "gameTitle": "Sonic Revert"
   },
   "subway-surfers": {
-    "pageMapping": "/3kh0/3kh0-assets/main/subway-surfers/index.html",
+    "pageMapping": "https://raw.githack.com/3kh0/3kh0-assets/main/subway-surfers/index.html",
     "imageSrc": "/game/img/subway-surfers.jpg",
-    "gameTitle": "Subway Surfers",
-    "usegithack": true
+    "gameTitle": "Subway Surfers"
   },
   "electricman": {
     "pageMapping": "/flash-loader/dynamic-loader?swf=files/electricman.swf&cdn=true",
@@ -187,10 +184,9 @@
     "usecdn": true
   },
   "cookie-clicker": {
-    "pageMapping": "/3kh0/3kh0-assets/main/cookie-clicker/index.html",
+    "pageMapping": "https://raw.githack.com/3kh0/3kh0-assets/main/cookie-clicker/index.html",
     "imageSrc": "/game/img/cookie-clicker.png",
-    "gameTitle": "Cookie Clicker",
-    "usegithack": true
+    "gameTitle": "Cookie Clicker"
   },
   "duck-hunt": {
     "pageMapping": "/duckhunt/",
@@ -256,10 +252,9 @@
     "gameTitle": "Dumb ways to die"
   },
   "10-minutes-till-dawn": {
-    "pageMapping": "/3kh0/3kh0-assets/main/10-minutes-till-dawn/index.html",
+    "pageMapping": "https://raw.githack.com/3kh0/3kh0-assets/main/10-minutes-till-dawn/index.html",
     "imageSrc": "/game/img/10-minutes-till-dawn.png",
-    "gameTitle": "10 Minutes Till Dawn",
-    "usegithack": true
+    "gameTitle": "10 Minutes Till Dawn"
   },
   "geometry-dash": {
     "pageMapping": "/gdash/",
@@ -347,6 +342,11 @@
     "imageSrc": "/game/img/fnaf.jpg",
     "gameTitle": "Five Nights At Freddy's",
     "eduNotice": true
+  },
+  "fnaf-shooter": {
+    "pageMapping": "https://raw.githack.com/nate-games/cdn2/main/fnaf-shooter/index.html",
+    "imageSrc": "/game/img/fnaf-shooter.png",
+    "gameTitle": "FNAF Shooter"
   },
   "fnaf-4": {
     "pageMapping": "/fnaf-4/",
@@ -712,7 +712,7 @@
     "gameTitle": "Funny Shooter"
   },
   "funny-shooter-2": {
-    "pageMapping": "https://smartfoloolol.netlify.app/assets/funny-shooter-2/",
+    "pageMapping": "https://nate-games.github.io/cdn2/funny-shooter2/",
     "imageSrc": "/game/img/funnyshooter2.png",
     "gameTitle": "Funny Shooter 2"
   },

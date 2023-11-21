@@ -6,8 +6,7 @@ const imageElement = document.createElement("img");
 const respectiveNote = document.getElementById("respective-note");
 var createLinebreak = document.createElement("br");
 const flashOpener = document.getElementById("flash-opener");
-imageElement.src =
-  "/img/svg/spinners/default.svg";
+imageElement.src = "/img/svg/spinners/default.svg";
 
 centerAlign.appendChild(loadingMessage);
 loadingMessage.appendChild(createLinebreak);
@@ -22,12 +21,14 @@ fetch("/js/json/games.json")
       const urlParams = new URLSearchParams(window.location.search);
 
       data.forEach((game) => {
-        if (urlParams.has('tags')) {
+        if (urlParams.has("tags")) {
           const tags = game.tags.split(", ");
-          const queryTags = urlParams.get('tags').split(", ");
-      
-          const matchingTags = tags.filter(tag => queryTags.includes(tag.toLowerCase()));
-      
+          const queryTags = urlParams.get("tags").split(", ");
+
+          const matchingTags = tags.filter((tag) =>
+            queryTags.includes(tag.toLowerCase())
+          );
+
           if (matchingTags.length > 0) {
             createGameCard(game, gameContainer);
           }
@@ -35,7 +36,6 @@ fetch("/js/json/games.json")
           createGameCard(game, gameContainer);
         }
       });
-      
     }, 0);
   })
   .catch((error) => {
@@ -57,39 +57,22 @@ function createGameCard(game, container) {
   const imageContainer = document.createElement("div");
   imageContainer.classList.add("image-container");
 
-  const img = document.createElement("img");
-  img.src = game.imageSrc;
-  img.onerror = function () {
-    this.src = "/game/image-placeholder.svg";
-  };
+  gameCard.style.backgroundImage = `url(${game.imageSrc})`;
 
   const h3 = document.createElement("h3");
   h3.textContent = game.name;
-
-  imageContainer.appendChild(img);
   gameCard.appendChild(imageContainer);
   gameCard.appendChild(h3);
   gameUrl.appendChild(gameCard);
   container.appendChild(gameUrl);
-  gameUrl.addEventListener("click", function (e) {
-    if (game.requiresProxy) {
-      const userResponse = prompt(
-        "A Proxy or VPN is required to play this game. Do you have a proxy or VPN enabled? (yes/no)"
-      );
-      if (userResponse && userResponse.toLowerCase() === "yes") {
-      } else {
-        e.preventDefault();
-        alert(
-          "You need a proxy or VPN to play this game. Please enable one and come back."
-        );
-      }
-    }
-  });
+  gameUrl.addEventListener("click", function (e) {});
   {
     const gameCard = document.querySelectorAll(".game-card");
     const counter = document.getElementById("game-count");
     counter.textContent = gameCard.length + " games";
-    counter.onclick = function(){alert('Total game count!')};
+    counter.onclick = function () {
+      alert("Total game count!");
+    };
   }
   if (game.hotGame) {
     const hotLabel = document.createElement("label");
