@@ -5,16 +5,6 @@
 @import url("/css/style.css");
 @import url("/css/dist/main/menu.css");
 
-
-.content {
-  text-align: center;
-  padding: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 h1 {
   color: #fff;
   font-size: 40px;
@@ -91,59 +81,18 @@ h1 {
   grid-gap: 32px;
 }
 
-.hg2793-container {
-  width: 100%;
-  padding: 50px 0 0;
-  position: absolute;
-  text-align: center;
-  user-select: none;
-  display: inline-block;
-  font-family: "Lato", "Roboto", Arial, Helvetica, sans-serif;
-}
-
-.hg2793-container .nice-border {
-  margin: 0;
-  overflow: hidden;
-  display: none;
-  background-color: #111;
-  border-radius: 16px;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
-  padding: 25px 50px 25px;
-}
-
-@-moz-document url-prefix() {
-  .hg2793-container .nice-border {
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-    overflow: hidden;
-    display: inline-block;
-    background-color: #111;
-    border-radius: 16px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
-    padding: 25px 50px 25px;
-  }
-}
-
 /* cssbuttons implementation */
 
-.footer-content {
+footer {
   position: relative;
-  border-radius: 10px 10px 0 0;
-  z-index: 9997;
   bottom: 0;
   font-size: 12px;
   padding: 10px 0;
   width: 100%;
-  background-color: #111;
+  background-color: #0b0b0b;
   color: white;
   text-align: center;
   display: inline-block;
-}
-
-.footer-content.home {
-  position: absolute;
-  background-color: #0d0d0d;
 }
 
 footer a {
@@ -220,7 +169,7 @@ footer a:hover::after {
 }
 
 #progress-container {
-  width: 400px;
+  width: 240px;
   margin: 20px auto;
   background-color: #ddd;
   border-radius: 5px;
@@ -323,14 +272,6 @@ footer a:hover::after {
 
 /* Home start */
 
-.retro {
-  bottom: 0%;
-  width: 100%;
-  position: fixed;
-  left: 0;
-  overflow: hidden;
-  height: 100%;
-}
 .welcome-message {
   font-size: 19px;
   cursor: pointer;
@@ -363,12 +304,6 @@ footer a:hover::after {
     transform: translate3d(0, 0, 0);
     opacity: 1;
   }
-}
-.button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: -4px;
-  margin-bottom: 0;
 }
 
 .button-container {

@@ -1,9 +1,4 @@
 {
-  "dev": {
-    "pageMapping": "/dev",
-    "gameTitle": "Developer mode",
-    "imageSrc": "/game/classlink.png"
-  },
   "1v1.lol": {
     "pageMapping": "https://cdn.nate-games.xyz/1v1lol/",
     "gameTitle": "1v1.LOL",

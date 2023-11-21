@@ -66,12 +66,3 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 8px;
 }
-
-#game-id {
-  border: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 9999;
-  position: absolute;
-  background-color: black;
-}

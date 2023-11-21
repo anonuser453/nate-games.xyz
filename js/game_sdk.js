@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
               iframe.style.backgroundColor = "#171717";
             }, 250);
             setTimeout(() => {
-              loadingText.textContent = "Happy Halloween! 🎃";
+              loadingText.textContent = "Happy Thanksgiving! 🦃";
               loadingText.style.color = "#ff8c33";
             }, 1000);
             loading.style.display = "block";
@@ -121,17 +121,20 @@ document.addEventListener("DOMContentLoaded", function () {
             adSkipped = true;
             const IframeAd = document.getElementById("iframe_ad");
             const adContent = document.getElementById("ad_content");
-            iframe.src = iframeSrc;
             iframe.style.display = "block";
             iframe.style.zIndex = "1";
             adContent.style.display = "none";
             IframeAd.src = null;
             if (queryParamsData.eduNotice === true) {
+              iframe.style.backgroundImage = "url('/img/logo2.gif')";
+              iframe.style.backgroundRepeat = "no-repeat";
+              iframe.style.backgroundSize = "cover";
+              iframe.style.backgroundPosition = "center";
               const notice = document.getElementById("notice");
               const closeNotice = document.getElementById("close-notice");
               const noticeText = document.getElementById("notice-text");
               const noticeType = document.getElementById("notice-type");
-              iframe.style.filter = "blur(10px)";
+              iframe.style.filter = "blur(50px)";
               closeNotice.addEventListener("click", CloseNotice);
               notice.style.display = "inline-block";
               noticeText.textContent =
@@ -139,6 +142,8 @@ document.addEventListener("DOMContentLoaded", function () {
               noticeType.textContent = "fair use";
             }
             function CloseNotice() {
+              iframe.style.backgroundImage = "none";
+              iframe.src = iframeSrc;
               iframe.style.filter = "blur(0px)";
               notice.style.display = "none";
             }
@@ -263,7 +268,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
-
 
 function hidebar() {
   const Likes = document.querySelector(".likes");

@@ -16,7 +16,6 @@
   border-radius: 8px;
   padding: 20px;
   width: 400px;
-  border-bottom: solid #fff;
   color: white;
 }
 
@@ -25,7 +24,6 @@
   border-radius: 8px;
   padding: 20px;
   width: 400px;
-  border-bottom: solid #000;
   color: black;
 }
 
@@ -36,10 +34,6 @@
 .cards.light h3 {
   margin-top: 0;
   color: black;
-}
-
-.cards.no-border {
-  border-bottom: none;
 }
 
 .cards h3 {
