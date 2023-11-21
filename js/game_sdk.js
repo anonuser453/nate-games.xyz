@@ -118,6 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         function skipAd() {
           if (!adSkipped) {
+            CloseNotice()
             adSkipped = true;
             const IframeAd = document.getElementById("iframe_ad");
             const adContent = document.getElementById("ad_content");

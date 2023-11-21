@@ -58,6 +58,12 @@
     "hotGame": true
   },
   {
+    "url": "/game/?shell-shockers",
+    "imageSrc": "/game/img/shell-shockers.webp",
+    "name": "Shell Shockers",
+    "hotGame": true
+  },
+  {
     "url": "/game/?game-inside-a-game",
     "imageSrc": "https://img.itch.zone/aW1nLzQ1OTUwODcucG5n/original/Xdhfjt.png",
     "name": "Game inside a Game",
@@ -212,7 +218,7 @@
   },
   {
     "url": "/0/g/minecraft-webgl/",
-    "imageSrc": "./minecraft-webgl/game/splash.png",
+    "imageSrc": "/0/g/minecraft-webgl/game/splash.png",
     "name": "Minecraft (WebGL)",
     "tags": "unity, kids, action"
   },
@@ -235,14 +241,14 @@
     "tags": "html5, kids, action"
   },
   {
-    "url": "./Paper Minecraft/",
-    "imageSrc": "./Paper Minecraft/game/y9m3lgup.bmp",
+    "url": "/0/g/Paper Minecraft/",
+    "imageSrc": "/0/g/Paper Minecraft/game/y9m3lgup.bmp",
     "name": "Paper Minecraft",
     "tags": "html5, kids, action"
   },
   {
     "url": "/0/g/minecraft-classic/",
-    "imageSrc": "./minecraft-classic/game/splash.jpg",
+    "imageSrc": "/0/g/minecraft-classic/game/splash.jpg",
     "name": "Minecraft Classic",
     "tags": "html5, kids, action"
   },
@@ -278,7 +284,7 @@
   },
   {
     "url": "/0/g/couch2048/",
-    "imageSrc": "./couch2048/game/splash.jpg",
+    "imageSrc": "/0/g/couch2048/game/splash.jpg",
     "name": "Couch 2048 (Physics)",
     "tags": "kids, html5"
   },
@@ -325,7 +331,7 @@
     "tags": "html5, intense, singleplayer, action, fnf"
   },
   {
-    "url": "./fnfneo/",
+    "url": "/0/g/fnfneo/",
     "imageSrc": "https://cdn.nate-games.xyz/fnfneo/game/splash.png",
     "name": "FNF Neo",
     "tags": "html5, intense, singleplayer, action, fnf"
@@ -361,14 +367,14 @@
     "tags": "fnaf, html5, horror"
   },
   {
-    "url": "./fnaf-webgl/",
-    "imageSrc": "./fnaf-webgl/game/splash.jpg",
+    "url": "/0/g/fnaf-webgl/",
+    "imageSrc": "/0/g/fnaf-webgl/game/splash.jpg",
     "name": "FNAF (WebGL)",
     "tags": "fnaf, unity, horror"
   },
   {
-    "url": "./fnaf-2/",
-    "imageSrc": "./fnaf-2/game/splash.webp",
+    "url": "/0/g/fnaf-2/",
+    "imageSrc": "/0/g/fnaf-2/game/splash.webp",
     "name": "FNAF 2",
     "tags": "fnaf, scratch, horror"
   },
@@ -379,14 +385,14 @@
     "tags": "fnaf, html5, horror"
   },
   {
-    "url": "./fnaf-3/",
-    "imageSrc": "./fnaf-3/game/splash.webp",
+    "url": "/0/g/fnaf-3/",
+    "imageSrc": "/0/g/fnaf-3/game/splash.webp",
     "name": "FNAF 3",
     "tags": "fnaf, unity, horror"
   },
   {
-    "url": "./fnaf-3scratch/",
-    "imageSrc": "./fnaf-3scratch/game/splash.jpg",
+    "url": "/0/g/fnaf-3scratch/",
+    "imageSrc": "/0/g/fnaf-3scratch/game/splash.jpg",
     "name": "FNAF 3 (Scratch)",
     "tags": "fnaf, scratch, horror"
   },
@@ -403,8 +409,8 @@
     "tags": "fnaf, scratch, horror"
   },
   {
-    "url": "./fnaf-fp/",
-    "imageSrc": "fnaf-fp/splash.jpg",
+    "url": "/0/g/fnaf-fp/",
+    "imageSrc": "/0/g/fnaf-fp/splash.jpg",
     "name": "FNAF Final Purgatory",
     "tags": "fnaf, unity, horror"
   },
@@ -414,9 +420,9 @@
     "name": "Cookie Clicker",
     "tags": "kids, fun, clicker"
   },
-  {
-    "url": "./particleclicker/",
-    "imageSrc": "./particleclicker/game/splash.png",
+  { 
+    "url": "/0/g/particleclicker/",
+    "imageSrc": "/0/g/particleclicker/game/splash.png",
     "name": "Particle Clicker",
     "tags": "kids, fun, clicker"
   },
@@ -439,13 +445,13 @@
     "tags": "kids, fun, clicker"
   },
   {
-    "url": "./fruitninja/",
+    "url": "/0/g/fruitninja/",
     "imageSrc": "https://yt3.googleusercontent.com/ytc/AGIKgqMRFpsditeb0jRlTO0fOflkCfh4q0e2_SHGDLae6Q=s900-c-k-c0x00ffffff-no-rj",
     "name": "Fruit Ninja",
     "tags": "point-and-click, kids, unity, action"
   },
   {
-    "url": "./fruitninja-js/",
+    "url": "/0/g/fruitninja-js/",
     "imageSrc": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/d4/f2/42/d4f242ac-c110-eb29-86df-cc5eec2a8488/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
     "name": "Fruit Ninja (JavaScript)",
     "tags": "html5, kids, action, point-and-click"
@@ -476,7 +482,7 @@
     "hotGame": true
   },
   {
-    "url": "./pooreddie/",
+    "url": "/0/g/pooreddie/",
     "imageSrc": "pooreddie/game/quj6uler.bmp",
     "name": "Poor Eddie",
     "tags": "html5, intense, singleplayer, action, point-and-click"
@@ -516,7 +522,7 @@
     "name": "Google Snake"
   },
   {
-    "url": "./superhot/",
+    "url": "/0/g/superhot/",
     "imageSrc": "./superhot/game/splash.jpg",
     "name": "Superhot"
   },
@@ -534,11 +540,6 @@
     "url": "/game/?masked-forces",
     "imageSrc": "/game/img/masked-forces.jpg",
     "name": "Masked Forces"
-  },
-  {
-    "url": "./shellshockers/",
-    "imageSrc": "./shellshockers/game/egg.webp",
-    "name": "Shell Shockers"
   },
   {
     "url": "/game/?krunker",
