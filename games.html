@@ -7,7 +7,165 @@
     crossorigin="anonymous"></script>
   <meta name="description" content="230+ online games - Play now on nate-games.xyz" />
   <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="search.css">
+  <style>
+    .textInputWrapper {
+      position: relative;
+      width: 180px;
+      margin: 12px 5px;
+      --accent-color: #a3e583;
+    }
+
+    .textInputWrapper:before {
+      transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    }
+
+    .textInputWrapper:before,
+    .textInputWrapper:after {
+      content: "";
+      left: 0;
+      right: 0;
+      position: absolute;
+      pointer-events: none;
+      bottom: -1px;
+      z-index: 4;
+      width: calc(100% + 20px + 4px);
+      /* 100% */
+    }
+
+    .textInputWrapper:focus-within:before {
+      border-bottom: 1px solid var(--accent-color);
+    }
+
+    .textInputWrapper:before {
+      transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    }
+
+    .textInputWrapper:focus-within:before {
+      border-bottom: 1px solid var(--accent-color);
+      transform: scaleX(1);
+    }
+
+    .textInputWrapper:focus-within:after {
+      border-bottom: 2px solid var(--accent-color);
+      transform: scaleX(1);
+    }
+
+    .textInputWrapper:after {
+      content: "";
+      transform: scaleX(0);
+      transition: transform 250ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+      will-change: transform;
+      border-bottom: 2px solid var(--accent-color);
+      border-bottom-color: var(--accent-color);
+    }
+
+    .textInput::placeholder {
+      transition: opacity 250ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+      opacity: 1;
+      user-select: none;
+      color: rgba(255, 255, 255, 0.582);
+    }
+
+    .textInputWrapper .textInput {
+      border-radius: 5px 5px 0px 0px;
+      box-shadow: 0px 2px 5px rgb(35 35 35 / 30%);
+      max-height: 36px;
+      background-color: #252525;
+      transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+      transition-duration: 200ms;
+      transition-property: background-color;
+      color: #e8e8e8;
+      font-size: 14px;
+      font-weight: 500;
+      font-family: "Lato", "Roboto", Arial, Helvetica, sans-serif;
+      padding: 12px;
+      width: 100%;
+      border-left: none;
+      border-bottom: none;
+      border-right: none;
+    }
+
+    .textInputWrapper .textInput:focus,
+    .textInputWrapper .textInput:active {
+      outline: none;
+    }
+
+    .textInputWrapper:focus-within .textInput,
+    .textInputWrapper .textInput:focus,
+    .textInputWrapper .textInput:active {
+      background-color: #353535;
+    }
+
+    .textInputWrapper:focus-within .textInput::placeholder {
+      opacity: 0;
+    }
+  </style>
+  <style>
+    .flash-opener {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 0 1rem;
+      font-family: 'Roboto', 'Lato', Arial, Helvetica, sans-serif;
+    }
+
+    .button-container {
+      display: flex;
+      margin-top: 6px;
+    }
+
+    #file-name {
+      margin-top: 10px;
+      display: none;
+    }
+
+    .buttons:hover {
+      background-color: #bbb;
+    }
+
+    .buttons {
+      cursor: pointer;
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #ddd;
+      color: #333;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+      border: none;
+      font-family: 'Lato', 'Roboto', Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      margin: 0 2px 0;
+    }
+
+    .buttons:active {
+      background-color: #111;
+      box-shadow: 0px 0px 3px #4287f5;
+      color: white;
+    }
+
+    #fullscreen-flash {
+      color: white;
+      font-size: 15px;
+      z-index: 9999;
+      max-height: 50px;
+      overflow: hidden;
+      border: none;
+      background-color: #111;
+      padding: 15px;
+      cursor: pointer;
+      transition: 0.2s;
+      border-radius: 0;
+    }
+
+    #fullscreen-flash:hover {
+      background-color: #222;
+      color: #4287f5;
+    }
+  </style>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="/favicon.ico">
 </head>
@@ -20,12 +178,7 @@
       </button>
     </a>
     <nav class="menu">
-      <a href="/settings">
-        <button class="menu-item">
-          <i class="fa-solid fa-gear"></i> Settings
-        </button>
-      </a>
-      <a href="/en-us/signup/">
+      <a href="/account">
         <button class="menu-item">
           <i class="fa-solid fa-user"></i> Account
         </button>
@@ -57,7 +210,7 @@
             <img src="/img/svg/scratch.svg" style="vertical-align: middle; height: 14px" /></a>
         </div>
       </div>
-      <a href="/0/g/">
+      <a href="/games">
         <button class="menu-item">
           <i class="fa-solid fa-gamepad"></i> Games
         </button>
@@ -92,7 +245,8 @@
       </div>
     </nav>
   </div>
-  <center id="bdg20217"><iframe src="https://invidget.switchblade.xyz/9mJcqwZ2a5?theme=dark" frameborder="0"
+
+  <center style="margin-top: 10em;"><iframe src="https://invidget.switchblade.xyz/9mJcqwZ2a5?theme=dark" frameborder="0"
       style="font-family: 'Lato', 'Roboto', Arial, Helvetica, sans-serif; width: 430px; height: 110px;" scrolling="no"
       id="join-discord">Your
       browser doesn't support iframes.</iframe>
@@ -156,6 +310,41 @@
   <script src="/js/editor.js"></script>
   <script src="/js/game_loader.js"></script>
   <script src="/js/flash_loader.js"></script>
+  <script>
+    function search() {
+      var input = document.getElementById("search-bar").value.toLowerCase();
+
+      var cards = document.getElementsByClassName("game-url");
+      var noResultsMessage = document.getElementById("no-results");
+      var hasResults = false;
+
+      const respectiveNote = document.getElementById("respective-note");
+
+      for (var i = 0; i < cards.length; i++) {
+        var title = cards[i].querySelector("h3").textContent.toLowerCase();
+        if (title.includes(input)) {
+          cards[i].style.display = "block";
+          hasResults = true;
+        } else {
+          cards[i].style.display = "none";
+        }
+      }
+
+      if (hasResults) {
+        noResultsMessage.style.display = "none";
+        respectiveNote.style.display = "block";
+      } else {
+        noResultsMessage.style.display = "block";
+        respectiveNote.style.display = "none";
+      }
+    }
+
+    document.getElementById("search-bar").addEventListener("input", search);
+    window.addEventListener("load", function () {
+      search();
+    });
+
+  </script>
 </body>
 
 </html>

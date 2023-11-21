@@ -1,7 +1,7 @@
 [
   {
     "url": "https://github.com/nate-games/nate-games.xyz/issues/new?assignees=nate-games&labels=Add-Game&projects=&template=add_game.yaml&title=%5BGame+Recommendation%5D%3A+%3Ctitle%3E",
-    "imageSrc": "request-svg.png",
+    "imageSrc": "/img/request-svg.png",
     "name": "Add a game!",
     "tags": "null",
     "target": "_blank"
