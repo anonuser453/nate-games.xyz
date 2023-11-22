@@ -64,41 +64,36 @@ h1 {
   text-decoration: none;
 }
 
-#hot_game::before {
-  content: "HOT \f06d";
+.game-card[data-label]:before {
+  content: "";
   position: absolute;
   font-family: var(--font-family), "Font Awesome 6 Free";
   display: inline-block;
   height: 15px;
   padding: 5px 10px;
-  color: hsl(0, 0%, 100%);
+  color: #fff;
   text-align: center;
   font-weight: bold;
   font-size: 12px;
-  background: linear-gradient(to top right, #ff5733, #ff9033);
   border-radius: 5px 0 0 5px;
   text-transform: uppercase;
   top: -5px;
   right: 0px;
 }
 
+.game-card[data-label="hot"]::before {
+  content: "HOT \f06d";
+  background: linear-gradient(to top right, #ff5733, #ff9033);
+}
 
-#new_game::before {
+.game-card[data-label="new"]:before {
   content: "NEW \f0f3";
-  position: absolute;
-  font-family: var(--font-family), "Font Awesome 6 Free";
-  display: inline-block;
-  height: 15px;
-  padding: 5px 10px;
-  color: hsl(0, 0%, 100%);
-  text-align: center;
-  font-weight: bold;
-  font-size: 12px;
   background: linear-gradient(to top right, #337dff, #33a8ff);
-  border-radius: 5px 0 0 5px;
-  text-transform: uppercase;
-  top: -5px;
-  right: 0px;
+}
+
+.game-card[data-label="christmas"]:before {
+  content: "Christmas \f06b";
+  background: linear-gradient(to right, #e1534f, #73fb5f);
 }
 
 .image-container img {

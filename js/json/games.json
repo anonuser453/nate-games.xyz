@@ -14,6 +14,13 @@
     "target": "window.open"
   },
   {
+    "url": "/game/?snow-rider-3d",
+    "imageSrc": "/game/img/snow-rider-3d.png",
+    "name": "Snow Rider 3D",
+    "tags": "unity",
+    "christmasGame": true
+  },
+  {
     "url": "/game/?1v1.lol",
     "imageSrc": "/game/img/1v1lol.jpg",
     "name": "1v1.LOL",
@@ -425,6 +432,12 @@
     "url": "/game/?10-minutes-till-dawn",
     "imageSrc": "/game/img/10-minutes-till-dawn.png",
     "name": "10 Minutes Till Dawn",
+    "tags": "unity, point-and-click"
+  },
+  {
+    "url": "/game/?capybara-clicker",
+    "imageSrc": "/game/img/capybara-clicker.png",
+    "name": "Capybara Clicker",
     "tags": "unity, point-and-click",
     "newGame": true
   },

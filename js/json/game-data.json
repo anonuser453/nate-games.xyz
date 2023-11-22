@@ -14,6 +14,18 @@
     "gameTitle": "Eggy Car",
     "imageSrc": "/game/img/thumb/eggy-car.webp"
   },
+  "snow-rider-3d": {
+    "pageMapping": "/files/uploads/games/snow-rider-3d/",
+    "gameTitle": "Snow Rider 3D",
+    "imageSrc": "/game/img/snow-rider-3d.png",
+    "usecdn": true
+  },
+  "capybara-clicker": {
+    "pageMapping": "/files/uploads/games/capybara-clicker/",
+    "gameTitle": "Capybara Clicker",
+    "imageSrc": "/game/img/capybara-clicker.png",
+    "usecdn": true
+  },
   "baldis-basics": {
     "pageMapping": "https://raw.githack.com/3kh0/3kh0-assets/main/baldis-basics/index.html",
     "imageSrc": "https://play-lh.googleusercontent.com/EPV1TB4So1lB0DGrdCVExDpNU8ML67nd8OqBeoOIM-s6sDicxmDdPvCXD6n7LKevFl0",
@@ -202,7 +214,7 @@
   "tiny-fishing": {
     "pageMapping": "/tiny-fishing/",
     "usecdn": true,
-    "imageSrc": "/game/img/tiny-fishing.png",
+    "imageSrc": "/game/img/thumb/tiny-fishing.png",
     "gameTitle": "Tiny Fishing"
   },
   "pizza-tower": {

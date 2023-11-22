@@ -71,14 +71,11 @@ function createGameCard(game, container) {
     };
   }
   if (game.hotGame) {
-    const hotLabel = document.createElement("label");
-    hotLabel.setAttribute("id", "hot_game");
-    gameCard.appendChild(hotLabel);
-  }
-  if (game.newGame) {
-    const newLabel = document.createElement("label");
-    newLabel.setAttribute("id", "new_game");
-    gameCard.appendChild(newLabel);
+    gameCard.setAttribute("data-label", "hot");
+  } else if (game.newGame) {
+    gameCard.setAttribute("data-label", "new");
+  } else if   (game.christmasGame) {
+    gameCard.setAttribute("data-label", "christmas")
   }
   if (game.target === "_blank") {
     gameUrl.addEventListener("click", function (e) {

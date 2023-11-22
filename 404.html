@@ -125,10 +125,10 @@
         document.getElementById("cookie").innerText = navigator.cookieEnabled;
 
         function fetchText() {
-          fetch('https://ip.nate-games.xyz')
+          fetch('/cdn-cgi/trace')
             .then(response => response.text())
             .then(data => {
-              document.getElementById('displayIP').textContent = data;
+              document.getElementById('displayIP').textContent = data.match(/ip=(\S+)/)[1];
             })
             .catch(error => {
               console.error('Error fetching text:', error);
