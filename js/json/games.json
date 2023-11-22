@@ -373,18 +373,6 @@
     "tags": "kids, fun, clicker"
   },
   {
-    "url": "/game/?nut-simulator",
-    "imageSrc": "/game/img/nutsim.jpg",
-    "name": "Nut Simulator",
-    "tags": "kids, fun, clicker"
-  },
-  {
-    "url": "/game/?nut-simulator-hacks",
-    "imageSrc": "/game/img/nutsim.jpg",
-    "name": "Nut Simulator [Hacked]",
-    "tags": "kids, fun, clicker"
-  },
-  {
     "url": "/0/g/fruitninja/",
     "imageSrc": "https://yt3.googleusercontent.com/ytc/AGIKgqMRFpsditeb0jRlTO0fOflkCfh4q0e2_SHGDLae6Q=s900-c-k-c0x00ffffff-no-rj",
     "name": "Fruit Ninja",
@@ -626,8 +614,8 @@
     "name": "Drift Hunters"
   },
   {
-    "url": "./eggycar/",
-    "imageSrc": "./eggycar/game/eggy-car.png",
+    "url": "/game/?eggy-car",
+    "imageSrc": "/game/img/eggy-car.jpg",
     "name": "Eggy Car"
   },
   {
