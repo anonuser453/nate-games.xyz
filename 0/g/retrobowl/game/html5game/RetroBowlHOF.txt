@@ -1,2 +1,0 @@
-name  rank
-nate-games 1

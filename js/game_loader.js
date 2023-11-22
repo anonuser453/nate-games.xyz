@@ -54,14 +54,10 @@ function createGameCard(game, container) {
   gameUrl.href = game.url;
   gameUrl.classList.add("game-url");
 
-  const imageContainer = document.createElement("div");
-  imageContainer.classList.add("image-container");
-
   gameCard.style.backgroundImage = `url(${game.imageSrc})`;
 
   const h3 = document.createElement("h3");
   h3.textContent = game.name;
-  gameCard.appendChild(imageContainer);
   gameCard.appendChild(h3);
   gameUrl.appendChild(gameCard);
   container.appendChild(gameUrl);
@@ -77,12 +73,12 @@ function createGameCard(game, container) {
   if (game.hotGame) {
     const hotLabel = document.createElement("label");
     hotLabel.setAttribute("id", "hot_game");
-    imageContainer.appendChild(hotLabel);
+    gameCard.appendChild(hotLabel);
   }
   if (game.newGame) {
     const newLabel = document.createElement("label");
     newLabel.setAttribute("id", "new_game");
-    imageContainer.appendChild(newLabel);
+    gameCard.appendChild(newLabel);
   }
   if (game.target === "_blank") {
     gameUrl.addEventListener("click", function (e) {

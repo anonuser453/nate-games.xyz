@@ -218,26 +218,14 @@
   },
   {
     "url": "/game/?crossy-road",
-    "imageSrc": "https://play-lh.googleusercontent.com/2yH_JCxn7D9FttXZViPhmvIEDfRhio5qdLdWJLxcIfh8PjIkVeBgt_Gj7q21dIRp97g",
+    "imageSrc": "https://play-lh.googleusercontent.com/V31nfvzNcu_47lr8y2L7m3uw9azrpGyox88gpzhQxwfZSXliFJmIRVSlYJL1eOo_X2U",
     "name": "Crossy Road",
     "tags": "html5, kids, action"
   },
   {
-    "url": "/0/g/minecraft-webgl/",
-    "imageSrc": "/0/g/minecraft-webgl/game/splash.png",
-    "name": "Minecraft (WebGL)",
-    "tags": "unity, kids, action"
-  },
-  {
-    "url": "/0/g/minecraft/",
-    "imageSrc": "https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP",
-    "name": "Minecraft",
-    "tags": "html5, kids, action"
-  },
-  {
     "url": "/game/?precision-client",
-    "imageSrc": "https://cdn.nate-games.xyz/PrecisionClient/game/splash.jpg",
-    "name": "Precision Client (MC)",
+    "imageSrc": "https://cdn.nate-games.xyz/precisionClient/withoutText.png",
+    "name": "Precision Client",
     "tags": "html5, kids, action"
   },
   {
@@ -401,12 +389,6 @@
     "imageSrc": "https://yt3.googleusercontent.com/ytc/AGIKgqMRFpsditeb0jRlTO0fOflkCfh4q0e2_SHGDLae6Q=s900-c-k-c0x00ffffff-no-rj",
     "name": "Fruit Ninja",
     "tags": "point-and-click, kids, unity, action"
-  },
-  {
-    "url": "/0/g/fruitninja-js/",
-    "imageSrc": "https://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/d4/f2/42/d4f242ac-c110-eb29-86df-cc5eec2a8488/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-    "name": "Fruit Ninja (JavaScript)",
-    "tags": "html5, kids, action, point-and-click"
   },
   {
     "url": "/game/?circle",
@@ -794,16 +776,6 @@
     "name": "Snowball.io"
   },
   {
-    "url": "/0/g/hole.io/",
-    "imageSrc": "./hole.io/game/imgupscaler.jpg",
-    "name": "Hole.io"
-  },
-  {
-    "url": "/0/g/hole.io-scratch/",
-    "imageSrc": "./hole.io-scratch/game/scratch.png",
-    "name": "Hole.io (Scratch)"
-  },
-  {
     "url": "/0/g/smashkarts/",
     "imageSrc": "/game/img/smash-karts.png",
     "name": "Smash Karts"
@@ -814,19 +786,9 @@
     "name": "Draw the Hill"
   },
   {
-    "url": "/0/g/retrobowl/",
-    "imageSrc": "https://play-lh.googleusercontent.com/WRM5Y1xZmzcCP1YtO5zl6G2g7CU5c5ZfjX4UVrgi1bpNgkfy-wuB-bQx3kkeRfaGYQ",
-    "name": "Retro Bowl"
-  },
-  {
     "url": "/game/?4th-and-goal-2022",
     "imageSrc": "/game/img/4th-and-goal-2022.avif",
     "name": "4th and goal 2022"
-  },
-  {
-    "url": "./fallguys/",
-    "imageSrc": "/0/g/fallguys/game/splash.png",
-    "name": "Fall Guys"
   },
   {
     "url": "/game/?hello-guys",
@@ -847,11 +809,6 @@
     "name": "Getting Over it",
     "imageSrc": "./gettingoverit/game/splash.bmp",
     "url": "./gettingoverit/"
-  },
-  {
-    "name": "Terraria",
-    "imageSrc": "./Terraria/game/8xurp269.bmp",
-    "url": "./Terraria/"
   },
   {
     "name": "Candy Crush",

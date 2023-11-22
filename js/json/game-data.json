@@ -491,9 +491,9 @@
     "gameTitle": "Getaway Shootout"
   },
   "precision-client": {
-    "pageMapping": "/PrecisionClient/game/compiled/web/",
+    "pageMapping": "/precisionClient/",
     "usecdn": true,
-    "imageSrc": "https://cdn.nate-games.xyz/PrecisionClient/game/splash.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/precisionClient/withText.png",
     "gameTitle": "Precision Client"
   },
   "fnaf-2-hacks": {
@@ -533,8 +533,8 @@
     "gameTitle": "Friday Night Funkin'"
   },
   "zombs-royale": {
-    "pageMapping": "https://the.deconstructors.co.uk/tmm-zombsroyale/",
-    "imageSrc": "/game/img/zombs-royale.png",
+    "pageMapping": "https://zombsroyale.io/",
+    "imageSrc": "https://play-lh.googleusercontent.com/3j-AwNcIEZWjdzFdEePKwPSbv6FqmmPUFS8Q_fw8cY0r6hCRQYzMOjknQPdhKRlDZZCt",
     "gameTitle": "Zombs Royale"
   },
   "valorant": {
