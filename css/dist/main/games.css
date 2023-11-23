@@ -135,80 +135,6 @@ h1 {
 
 /* cssbuttons implementation */
 
-footer {
-  position: relative;
-  bottom: 0;
-  font-size: 12px;
-  padding: 10px 0;
-  width: 100%;
-  background-color: #0b0b0b;
-  color: white;
-  text-align: center;
-  display: inline-block;
-}
-
-footer a {
-  text-decoration: none;
-}
-
-.footer-content i {
-  font-size: 10px;
-}
-
-.footer-content small {
-  font-size: 11px;
-  font-weight: lighter;
-}
-
-footer a {
-  color: #4287f5;
-  background-color: transparent;
-  padding-bottom: calc(1px * 2);
-  border: none;
-  position: relative;
-  transition: 0.2s ease;
-  cursor: pointer;
-}
-
-footer a::after {
-  display: block;
-  background-color: #4287f5;
-  width: 100%;
-  left: 0;
-  transform-origin: bottom center;
-  height: 2px;
-  position: absolute;
-  bottom: 0;
-  transform: scaleX(0);
-  transition: 0.3s ease;
-  content: "";
-}
-
-footer a:hover::after {
-  transform: scaleX(1);
-}
-
-#red-filler {
-  transition: 0.3s;
-}
-
-#red-filler:hover {
-  color: #ff3d3d;
-}
-
-.about-us summary {
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  opacity: 0.8;
-  transition: 0.2s;
-}
-
-.about-us summary:hover {
-  text-decoration: underline 2px #4287f5;
-  opacity: 1;
-}
-
 .divider-container {
   width: 300px;
   text-align: center;
@@ -252,10 +178,6 @@ footer a:hover::after {
 
 #game-count:hover {
   background-color: #3d7bdf;
-}
-
-#game-count:active {
-  transform: rotate3d(1, 1, 1, 360deg);
 }
 
 /* Home start */

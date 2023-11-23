@@ -32,3 +32,5 @@ addScriptSrc(
     googleTranslateElementInit();
   }
 );
+
+// https://arc.io/widget.js

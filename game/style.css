@@ -8,14 +8,6 @@ body {
   font-family: var(--font-family);
 }
 
-.center-container {
-  margin-top: 6em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 #notice {
   position: absolute;
   z-index: 9998;
@@ -26,7 +18,11 @@ body {
 }
 
 #embed-container {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   width: 1200px;
   height: 675px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
@@ -228,8 +224,7 @@ center:hover .show-bar {
   position: relative;
 }
 
-.like #starred,
-#unstarred {
+#favorite {
   font-size: 15px;
   bottom: 19px;
   right: 0;

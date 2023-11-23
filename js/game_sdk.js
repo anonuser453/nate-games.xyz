@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         function skipAd() {
           if (!adSkipped) {
-            CloseNotice()
+            CloseNotice();
             adSkipped = true;
             const IframeAd = document.getElementById("iframe_ad");
             const adContent = document.getElementById("ad_content");
@@ -204,11 +204,9 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 
-    var currentURL = window.location.href;
-
-    var linkElement = document.getElementById("report-referer");
-
-    linkElement.href += currentURL;
+    document.getElementById(
+      "report-referer"
+    ).href = `https://github.com/nate-games/nate-games.xyz/issues/new?template=bug_reporting.yaml&url=${window.location.href}`;
 
     function setSessionCookie(name, value) {
       const urlParams = new URLSearchParams(window.location.search);
