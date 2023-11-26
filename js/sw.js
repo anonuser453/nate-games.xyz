@@ -1,6 +1,6 @@
 var allowedDomains = [
   "https://nate-games.xyz",
-  "https://play.nate-games.xyz",
+  "https://old.nate-games.xyz",
   "http://localhost:8080",
 ];
 
