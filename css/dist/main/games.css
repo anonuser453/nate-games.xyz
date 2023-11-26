@@ -96,14 +96,6 @@ h1 {
   background: linear-gradient(to right, #e1534f, #73fb5f);
 }
 
-.image-container img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  transition: 0.4s;
-  background-color: #1b1b1b;
-}
-
 .link {
   color: #4287f5;
   background-color: transparent;
