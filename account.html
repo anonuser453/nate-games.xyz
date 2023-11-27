@@ -90,11 +90,6 @@
         play! <br><i>(There are 150xp every level)</i>
       </p>
       <button id="revealLevel" class="cards-button">Reveal my level</button>
-      <button class="cards-button" id="export">Export as
-        Save</button>
-      <button class="cards-button" id="import" onclick="openFileInput()">Import as
-        Save</button>
-      <input type="file" id="file-input" style="display: none;" accept=".save">
 
       <span id="levelContent" style="display: none;">
         <p>
@@ -118,51 +113,6 @@
         level.style.display = "none";
       }
     });
-
-
-    function openFileInput() {
-      const fileInput = document.getElementById("file-input");
-
-      fileInput.addEventListener("change", function () {
-        const file = fileInput.files[0];
-        const reader = new FileReader();
-
-        reader.addEventListener("load", function () {
-          console.log(atob(reader.result));
-          alert("Importing is not available yet. We'll let you know when its ready.")
-        });
-
-        reader.readAsText(file);
-      });
-
-      fileInput.click();
-    }
-
-  </script>
-  <script>
-
-    var string = btoa(`lvl: "${localStorage.getItem("level")}", xp: "${localStorage.getItem("xp")}"`)
-    var string2 = btoa(`var savedData = { 
-      data: "${string}" 
-    }`)
-
-    document.getElementById("export").onclick = function () {
-      downloadFile(`data:text/plain,${string2}`, 'levels.save');
-    }
-
-    function downloadFile(url, fileName) {
-      fetch(url)
-        .then(res => res.blob())
-        .then(res => {
-          const aElement = document.createElement("a")
-          aElement.setAttribute('download', fileName);
-          const href = URL.createObjectURL(res);
-          aElement.href = href;
-          aElement.setAttribute('target', '_blank');
-          aElement.click();
-          URL.revokeObjectURL(href);
-        });
-    };
   </script>
 </body>
 
