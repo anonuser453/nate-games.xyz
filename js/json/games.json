@@ -15,32 +15,32 @@
   },
   {
     "url": "/game/?snow-rider-3d",
-    "imageSrc": "/game/img/snow-rider-3d.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/snow-rider-3d.png",
     "name": "Snow Rider 3D",
     "tags": "unity",
     "christmasGame": true
   },
   {
     "url": "/game/?1v1.lol",
-    "imageSrc": "/game/img/1v1lol.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/1v1-lol.jpg",
     "name": "1v1.LOL",
     "tags": "action, shooting, unity"
   },
   {
     "url": "/game/?justfall.lol",
-    "imageSrc": "/game/img/justfall.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/justfall.png",
     "name": "JustFall.LOL",
     "tags": "kids, fun, unity, action"
   },
   {
     "url": "/game/?reblox-client",
-    "imageSrc": "/game/img/reblox-client.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/reblox-client.jpg",
     "name": "Reblox Client",
     "tags": "kids, fun, adventure, multiplayer, unity"
   },
   {
     "url": "/game/?cluster-rush",
-    "imageSrc": "/game/img/cluster-rush.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/cluster-rush.png",
     "name": "Cluster Rush",
     "tags": "kids, fun, adventure, action, unity, singleplayer",
     "hotGame": true
@@ -53,20 +53,20 @@
   },
   {
     "url": "/game/?sonic-revert",
-    "imageSrc": "/game/img/sonic-revert.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/sonic-revert.png",
     "name": "Sonic Revert",
     "tags": "kids, fun, unity"
   },
   {
     "url": "/game/?subway-surfers",
-    "imageSrc": "/game/img/subway-surfers.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/subway-surfers.webp",
     "name": "Subway Surfers",
     "tags": "kids, action, unity",
     "hotGame": true
   },
   {
     "url": "/game/?shell-shockers",
-    "imageSrc": "/game/img/shell-shockers.webp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/shell-shockers.webp",
     "name": "Shell Shockers",
     "hotGame": true
   },
@@ -78,14 +78,14 @@
   },
   {
     "url": "/game/?idle-startup-tycoon",
-    "imageSrc": "/game/img/idle-startup-tycoon.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/idle-startup-tycoon.avif",
     "name": "Idle Startup Tycoon",
     "tags": "tycoon, kids, singleplayer",
     "hotGame": true
   },
   {
     "url": "/game/?tanuki-sunset",
-    "imageSrc": "/game/img/tanuki-sunset.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/tanuki-sunset.png",
     "name": "Tanuki Sunset",
     "tags": "kids, fun, action, singleplayer, unity, adventure"
   },
@@ -98,86 +98,86 @@
   },
   {
     "url": "/game/?tiny-fishing",
-    "imageSrc": "/game/img/tiny-fishing.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/tiny-fishing.png",
     "name": "Tiny Fishing",
     "tags": "html5, kids, adventure"
   },
   {
     "url": "/game/?worlds-hardest-game",
-    "imageSrc": "/game/img/whg.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/whg.png",
     "name": "World's Hardest Game",
     "tags": "kids, flash,"
   },
   {
     "url": "/game/?worlds-hardest-game-2",
-    "imageSrc": "/game/img/whg2.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/whg2.jpg",
     "name": "World's Hardest Game 2",
     "tags": "kids, flash"
   },
   {
     "url": "/game/?worlds-hardest-game-3",
-    "imageSrc": "/game/img/whg3.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/whg3.jpg",
     "name": "World's Hardest Game 3",
     "tags": "kids, flash"
   },
   {
     "url": "/game/?the-impossible-quiz",
-    "imageSrc": "/game/img/the-impossible-quiz.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/the-impossible-quiz.avif",
     "name": "The Impossible Quiz",
     "tags": "kids, flash"
   },
   {
     "url": "/game/?dad-n-me",
-    "imageSrc": "/game/img/dad-n-me.webp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/dad-n-me.png",
     "name": "Dad 'n Me",
     "tags": "flash"
   },
   {
     "url": "/game/?alien-hominid",
-    "imageSrc": "/game/img/alienhominid.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/alien-hominid.png",
     "name": "Alien Hominid",
     "tags": "flash"
   },
   {
     "url": "/game/?slope-game",
-    "imageSrc": "/game/img/slope.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/slope.jpg",
     "name": "Slope",
     "tags": "unity, kids, action",
     "hotGame": true
   },
   {
     "url": "/game/?slope-2",
-    "imageSrc": "/game/img/slope2.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/slope2.png",
     "name": "Slope 2",
     "tags": "unity, kids, action"
   },
   {
     "url": "/game/?slope-3",
-    "imageSrc": "/game/img/slope3.bmp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/slope3.bmp",
     "name": "Slope 3",
     "tags": "unity, kids, action"
   },
   {
     "url": "/game/?tunnelrush",
-    "imageSrc": "/game/img/tunnelrush.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/tunnelrush.jpg",
     "name": "Tunnel Rush",
     "tags": "unity, kids, action"
   },
   {
     "url": "/game/?tunnelrush-2",
-    "imageSrc": "/game/img/tunnelrush2.webp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/tunnelrush2.webp",
     "name": "Tunnel Rush 2",
     "tags": "html5, kids, action"
   },
   {
     "url": "/game/?hexgl",
-    "imageSrc": "/game/img/hexgl.bmp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/hexgl.bmp",
     "name": "HexGL",
     "tags": "html5, kids, action"
   },
   {
     "url": "/game/?hextris",
-    "imageSrc": "/game/img/hextris.webp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/hextris.webp",
     "name": "Hextris",
     "tags": "kids, html5"
   },
@@ -189,31 +189,31 @@
   },
   {
     "url": "/game/?paperio-2",
-    "imageSrc": "/game/img/paperio-2.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/paperio-2.avif",
     "name": "Paper.io 2",
     "tags": "html5, kids"
   },
   {
     "url": "/game/?geometry-dash",
-    "imageSrc": "/game/img/geometrydash.svg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/geometry-dash.webp",
     "name": "Geometry Dash",
     "hotGame": true
   },
   {
     "url": "/game/?paperio-3d",
-    "imageSrc": "/game/img/paperio-3d.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/paperio-3d.jpg",
     "name": "Paper.io 3d",
     "tags": "html5, kids"
   },
   {
     "url": "/game/?flappy-bird",
-    "imageSrc": "/game/img/flappy-bird.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/flappy-bird.png",
     "name": "Flappy Bird",
     "tags": "html5, kids, action"
   },
   {
     "url": "/game/?angrybirds",
-    "imageSrc": "/game/img/angrybirds.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/angrybirds.png",
     "name": "Angry Birds",
     "tags": "html5, kids, action, point-and-click"
   },
@@ -243,7 +243,7 @@
   },
   {
     "url": "/game/?papas-doggeria",
-    "imageSrc": "/game/img/papas-doggeria.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/papas-doggeria.png",
     "name": "Papa's Hot Doggeria",
     "tags": "kids, action, flash, point-and-click"
   },
@@ -261,7 +261,7 @@
   },
   {
     "url": "/game/?papas-pancakeria",
-    "imageSrc": "/game/img/papas-pancakeria.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/papas-pancakeria.png",
     "name": "Papa's Pancakeria",
     "tags": "kids, action, flash, point-and-click"
   },
@@ -273,19 +273,19 @@
   },
   {
     "url": "/game/?2048",
-    "imageSrc": "/game/img/2048.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/2048.png",
     "name": "2048",
     "tags": "kids, html5"
   },
   {
     "url": "/game/?2048-multitask",
-    "imageSrc": "/game/img/2048-multitask.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/2048-multitask.png",
     "name": "2048 Multitask",
     "tags": "kids, html5"
   },
   {
     "url": "/game/?1",
-    "imageSrc": "/game/img/1.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/1.png",
     "name": "1",
     "tags": "kids, html5"
   },
@@ -297,13 +297,13 @@
   },
   {
     "url": "/game/?adventure-capitalist",
-    "imageSrc": "/game/img/adventure-capitalist.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/adventure-capitalist.jpg",
     "name": "AdVenture Capitalist",
     "tags": "kids, unity"
   },
   {
     "url": "/game/?fnf",
-    "imageSrc": "/game/img/friday-night-funkin.webp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/friday-night-funkin.webp",
     "name": "Friday Night Funkin'",
     "tags": "html5, intense, singleplayer, action, fnf"
   },
@@ -327,31 +327,31 @@
   },
   {
     "url": "/game/?fnf-mid-fight-masses",
-    "imageSrc": "/game/img/fnfmidfight.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/fnfmidfight.jpg",
     "name": "FNF Mid-Fight Masses",
     "tags": "fnf, html5, intense, singleplayer, action"
   },
   {
     "url": "/game/?fnf-vs-whitty",
-    "imageSrc": "/game/img/fnf-vs-whitty.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/fnf-vs-whitty.jpg",
     "name": "FNF vs. Whitty",
     "tags": "fnf, html5, intense, singleplayer, action"
   },
   {
     "url": "/game/?rocket-buddy",
-    "imageSrc": "/game/img/rocketbuddy.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/rocketbuddy.png",
     "name": "Rocket Buddy",
     "tags": "construct"
   },
   {
     "url": "/game/?fnaf-shooter",
-    "imageSrc": "/game/img/fnaf-shooter.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/fnaf-shooter.png",
     "name": "FNAF Shooter",
     "tags": "fnaf, unity, horror"
   },
   {
     "url": "/game/?fnaf",
-    "imageSrc": "/game/img/fnaf.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/fnaf.jpg",
     "name": "FNAF",
     "tags": "fnaf, html5, horror"
   },
@@ -363,7 +363,7 @@
   },
   {
     "url": "/game/?cookie-clicker",
-    "imageSrc": "/game/img/cookie-clicker.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/cookie-clicker.png",
     "name": "Cookie Clicker",
     "tags": "kids, fun, clicker"
   },
@@ -375,7 +375,7 @@
   },
   {
     "url": "/game/?doge-miner",
-    "imageSrc": "/game/img/doge-miner.bmp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/doge-miner.bmp",
     "name": "Doge Miner",
     "tags": "kids, fun, clicker"
   },
@@ -387,19 +387,19 @@
   },
   {
     "url": "/game/?circle",
-    "imageSrc": "/game/img/circle.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/circle.png",
     "name": "Circle",
     "tags": "point-and-click, kids, html5, action"
   },
   {
     "url": "/game/?stack",
-    "imageSrc": "/game/img/stack.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/stack.png",
     "name": "Stack",
     "tags": "html5, kids, point-and-click, action"
   },
   {
     "url": "/game/?stickman-hook",
-    "imageSrc": "/game/img/stickman-hook.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/stickman-hook.jpg",
     "name": "Stickman Hook",
     "tags": "html5, intense, singleplayer, action, point-and-click"
   },
@@ -418,7 +418,7 @@
   },
   {
     "url": "/game/?swingo",
-    "imageSrc": "/game/img/swingo.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/swingo.avif",
     "name": "Swingo",
     "tags": "html5, intense, singleplayer, action, point-and-click"
   },
@@ -430,25 +430,25 @@
   },
   {
     "url": "/game/?10-minutes-till-dawn",
-    "imageSrc": "/game/img/10-minutes-till-dawn.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/10-minutes-till-dawn.png",
     "name": "10 Minutes Till Dawn",
     "tags": "unity, point-and-click"
   },
   {
     "url": "/game/?capybara-clicker",
-    "imageSrc": "/game/img/capybara-clicker.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/capybara-clicker.png",
     "name": "Capybara Clicker",
     "tags": "unity, point-and-click",
     "newGame": true
   },
   {
     "url": "/game/?pizza-tower",
-    "imageSrc": "/game/img/pizzatower.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/pizzatower.jpg",
     "name": "Pizza Tower"
   },
   {
     "url": "/game/?slither-io",
-    "imageSrc": "/game/img/slither-io.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/slither-io.jpg",
     "name": "Slither.io"
   },
   {
@@ -463,27 +463,27 @@
   },
   {
     "url": "/game/?funny-shooter",
-    "imageSrc": "/game/img/funnyshooter-thumb.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/funnyshooter-thumb.png",
     "name": "Funny Shooter"
   },
   {
     "url": "/game/?funny-shooter-2",
-    "imageSrc": "/game/img/funnyshooter2.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/funnyshooter2.png",
     "name": "Funny Shooter 2"
   },
   {
     "url": "/game/?masked-forces",
-    "imageSrc": "/game/img/masked-forces.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/masked-forces.jpg",
     "name": "Masked Forces"
   },
   {
     "url": "/game/?krunker",
-    "imageSrc": "/game/img/krunker.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/krunker.png",
     "name": "Krunker"
   },
   {
     "url": "/game/?repuls.io",
-    "imageSrc": "/game/img/repuls-io.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/repuls-io.jpg",
     "name": "Repuls.io",
     "tags": "action, shooting, unity"
   },
@@ -495,7 +495,7 @@
   },
   {
     "url": "/game/?stick-merge",
-    "imageSrc": "/game/img/stickmerge.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/stickmerge.avif",
     "name": "Stick Merge",
     "tags": "adventure, shooting, action, intense, fps"
   },
@@ -507,37 +507,37 @@
   },
   {
     "url": "/game/?gun-spin",
-    "imageSrc": "/game/img/gunspin.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/gunspin.png",
     "name": "Gun Spin",
     "tags": "adventure, shooting, action, intense"
   },
   {
     "url": "/game/?valorant",
-    "imageSrc": "/game/img/valorant.webp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/valorant.webp",
     "name": "Valorant",
     "tags": "br, fun, intense, action, shooting, powers, intense"
   },
   {
     "url": "/game/?doodle-jump",
-    "imageSrc": "/game/img/doodle-jump.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/doodle-jump.png",
     "name": "Doodle Jump",
     "tags": "fun, kids, doodle, scribble, drawing, action, adventure, intense"
   },
   {
     "url": "/game/?octocat-jump",
-    "imageSrc": "/game/img/octocat-jump.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/octocat-jump.png",
     "name": "Octocat Jump",
     "tags": "kids"
   },
   {
     "url": "/game/?combat-reloaded",
-    "imageSrc": "/game/img/combat-reloaded.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/combat-reloaded.png",
     "name": "Combat Reloaded",
     "tags": "action, adventure, intense, fps"
   },
   {
     "url": "/game/?master-chess",
-    "imageSrc": "/game/img/master-chess.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/master-chess.avif",
     "name": "Master Chess",
     "tags": "kids, point-and-click, html5"
   },
@@ -549,19 +549,19 @@
   },
   {
     "url": "/game/?electricman",
-    "imageSrc": "/game/img/electricman.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/electricman.png",
     "name": "Electric Man 2 HS",
     "tags": "flash, electricman, electric-man, intense, singleplayer"
   },
   {
     "url": "/game/?gimme-the-airpod",
-    "imageSrc": "/game/img/gimme-airpod.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/gimme-airpod.png",
     "name": "Gimme the airpod",
     "tags": "unity"
   },
   {
     "url": "/game/?tag",
-    "imageSrc": "/game/img/tag.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/tag.avif",
     "name": "TAG",
     "tags": "construct"
   },
@@ -573,31 +573,31 @@
   },
   {
     "url": "/game/?btd",
-    "imageSrc": "/game/img/btd.webp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/btd.webp",
     "name": "BTD",
     "tags": "flash, tower-defense, ninjakiwi"
   },
   {
     "url": "/game/?btd2",
-    "imageSrc": "/game/img/btd2.webp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/btd2.webp",
     "name": "BTD 2",
     "tags": "flash, tower-defense, ninjakiwi"
   },
   {
     "url": "/game/?btd3",
-    "imageSrc": "/game/img/btd3.webp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/btd3.webp",
     "name": "BTD 3",
     "tags": "flash, tower-defense, ninjakiwi, btd, bloons"
   },
   {
     "url": "/game/?btd4",
-    "imageSrc": "/game/img/btd4.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/btd4.jpg",
     "name": "BTD 4",
     "tags": "flash, tower-defense, ninjakiwi, btd, bloons"
   },
   {
     "url": "/game/?btd5",
-    "imageSrc": "/game/img/btd5.webp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/btd5.webp",
     "name": "BTD 5",
     "tags": "flash, tower-defense, ninjakiwi, btd, bloons"
   },
@@ -613,7 +613,7 @@
   },
   {
     "url": "/game/?burnin-rubber-5-xs",
-    "imageSrc": "/game/img/burnin-rubber-5-xs.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/burnin-rubber-5-xs.avif",
     "name": "Burnin Rubber 5 XS"
   },
   {
@@ -623,27 +623,27 @@
   },
   {
     "url": "/game/?drift-hunters",
-    "imageSrc": "/game/img/drift-hunters.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/drift-hunters.png",
     "name": "Drift Hunters"
   },
   {
     "url": "/game/?eggy-car",
-    "imageSrc": "/game/img/eggy-car.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/eggy-car.jpg",
     "name": "Eggy Car"
   },
   {
     "url": "/game/?ovo",
-    "imageSrc": "/game/img/ovo.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/ovo.png",
     "name": "OvO"
   },
   {
     "url": "/game/?ovo2",
-    "imageSrc": "/game/img/ovo2.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/ovo2.png",
     "name": "OvO 2"
   },
   {
     "url": "/game/?ovo3",
-    "imageSrc": "/game/img/ovo3.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/ovo3.avif",
     "name": "OvO 3 - Dimensions"
   },
   {
@@ -658,12 +658,12 @@
   },
   {
     "url": "/game/?jelly-mario",
-    "imageSrc": "/game/img/jelly-mar.gif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/jelly-mar.gif",
     "name": "Jelly Mario Bros"
   },
   {
     "url": "/game/?sm63",
-    "imageSrc": "/game/img/sm63.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/sm63.jpg",
     "name": "Super Mario 63"
   },
   {
@@ -673,7 +673,7 @@
   },
   {
     "url": "/game/?sans-fight",
-    "imageSrc": "/game/img/sans-fight.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/sans-fight.jpg",
     "name": "Sans Fight"
   },
   {
@@ -683,7 +683,7 @@
   },
   {
     "url": "/game/?greybox",
-    "imageSrc": "/game/img/greybox.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/greybox.png",
     "name": "Grey-Box Testing"
   },
   {
@@ -718,12 +718,12 @@
   },
   {
     "url": "/game/?backrooms",
-    "imageSrc": "/game/img/backrooms.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/backrooms.jpg",
     "name": "BACKROOMS"
   },
   {
     "url": "/game/?tooncup",
-    "imageSrc": "/game/img/tooncup.webp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/tooncup.webp",
     "name": "Toon Cup"
   },
   {
@@ -748,7 +748,7 @@
   },
   {
     "url": "/game/?bitlife",
-    "imageSrc": "/game/img/bitlife.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/bitlife.png",
     "name": "BitLife"
   },
   {
@@ -758,7 +758,7 @@
   },
   {
     "url": "/game/?monkeymart",
-    "imageSrc": "/game/img/monkeymart.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/monkeymart.jpg",
     "name": "Monkey Mart"
   },
   {
@@ -768,12 +768,12 @@
   },
   {
     "url": "/0/g/snowball.io/",
-    "imageSrc": "/0/g/snowball.io/game/img/unnamed.png",
+    "imageSrc": "/0/g/snowball.iohttps://cdn.nate-games.xyz/game/img/unnamed.png",
     "name": "Snowball.io"
   },
   {
     "url": "/0/g/smashkarts/",
-    "imageSrc": "/game/img/smash-karts.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/smash-karts.png",
     "name": "Smash Karts"
   },
   {
@@ -783,22 +783,22 @@
   },
   {
     "url": "/game/?4th-and-goal-2022",
-    "imageSrc": "/game/img/4th-and-goal-2022.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/4th-and-goal-2022.avif",
     "name": "4th and goal 2022"
   },
   {
     "url": "/game/?hello-guys",
-    "imageSrc": "/game/img/helloguys-thumb1.webp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/helloguys-thumb1.webp",
     "name": "Hello Guys"
   },
   {
     "name": "Stumble Guys",
-    "imageSrc": "/game/img/stumble-guys.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/stumble-guys.png",
     "url": "/game/?stumble-guys"
   },
   {
     "name": "Zombs Royale",
-    "imageSrc": "/game/img/zombs-royale.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/zombs-royale.png",
     "url": "/game/?zombs-royale"
   },
   {
@@ -808,7 +808,7 @@
   },
   {
     "name": "Candy Crush",
-    "imageSrc": "/game/img/candycrush.bmp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/candycrush.bmp",
     "url": "/game/?candy-crush"
   },
   {
@@ -818,7 +818,7 @@
   },
   {
     "name": "Temple of Boom",
-    "imageSrc": "/game/img/templeofboom.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/templeofboom.avif",
     "url": "/game/?temple-of-boom"
   },
   {
@@ -853,12 +853,12 @@
   },
   {
     "name": "Basketball Stars",
-    "imageSrc": "/game/img/basketball-stars.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/basketball-stars.png",
     "url": "/game/?basketball-stars"
   },
   {
     "name": "Bouncy Basketball",
-    "imageSrc": "/game/img/bouncy-basketball.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/bouncy-basketball.avif",
     "url": "/game/?bouncy-basketball"
   },
   {
@@ -868,7 +868,7 @@
   },
   {
     "name": "Getaway Shootout",
-    "imageSrc": "/game/img/getaway-shootout.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/getaway-shootout.jpg",
     "url": "/game/?getaway-shootout"
   },
   {
@@ -878,22 +878,22 @@
   },
   {
     "name": "Vex 4",
-    "imageSrc": "/game/img/vex-4.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/vex-4.jpg",
     "url": "/game/?vex-4"
   },
   {
     "name": "Vex 5",
-    "imageSrc": "/game/img/vex-5.jpeg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/vex-5.jpeg",
     "url": "/game/?vex-5"
   },
   {
     "name": "Vex 6",
-    "imageSrc": "/game/img/vex-6.jpeg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/vex-6.jpeg",
     "url": "/game/?vex-6"
   },
   {
     "name": "Vex 7",
-    "imageSrc": "/game/img/vex-7.jpeg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/vex-7.jpeg",
     "url": "/game/?vex-7"
   },
   {
@@ -913,47 +913,47 @@
   },
   {
     "name": "Big Neon Tower",
-    "imageSrc": "/game/img/big-neon-tower.jpg",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/big-neon-tower.jpg",
     "url": "/game/?big-neon-tower-vs-tiny-square"
   },
   {
     "name": "Duck Hunt",
-    "imageSrc": "/game/img/duckhunt.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/duckhunt.png",
     "url": "/game/?duck-hunt"
   },
   {
     "name": "Stick Defenders",
-    "imageSrc": "/game/img/stick-defenders.avif",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/stick-defenders.avif",
     "url": "/game/?stick-defenders",
     "tags": "adventure, action, shooting, point-and-click"
   },
   {
     "name": "Henry Stickmin",
-    "imageSrc": "/game/img/hs.bmp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/hs.bmp",
     "url": "/game/?henry-stickmin",
     "tags": "adventure, action, shooting, point-and-click"
   },
   {
     "name": "Henry Stickmin 2",
-    "imageSrc": "/game/img/hs2.bmp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/hs2.bmp",
     "url": "/game/?henry-stickmin-2",
     "tags": "adventure, action, shooting, point-and-click"
   },
   {
     "name": "Henry Stickmin 3",
-    "imageSrc": "/game/img/hs3.bmp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/hs3.bmp",
     "url": "/game/?henry-stickmin-3",
     "tags": "adventure, action, shooting, point-and-click"
   },
   {
     "name": "Henry Stickmin 4",
-    "imageSrc": "/game/img/hs4.bmp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/hs4.bmp",
     "url": "/game/?henry-stickmin-4",
     "tags": "adventure, action, shooting, point-and-click"
   },
   {
     "name": "Henry Stickmin 5",
-    "imageSrc": "/game/img/hs5.bmp",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/hs5.bmp",
     "url": "/game/?henry-stickmin-5",
     "tags": "adventure, action, shooting, point-and-click"
   },
@@ -971,7 +971,7 @@
   },
   {
     "name": "Wings.io",
-    "imageSrc": "/game/img/wings-io.png",
+    "imageSrc": "https://cdn.nate-games.xyz/game/img/wings-io.png",
     "url": "/game/?wings.io",
     "tags": "kids, fun, adventure, action, html5, multiplayer"
   }

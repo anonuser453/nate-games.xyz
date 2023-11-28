@@ -2,13 +2,14 @@ var allowedDomains = [
   "https://nate-games.xyz",
   "https://old.nate-games.xyz",
   "http://localhost:8080",
+  "http://localhost:53483",
 ];
 
 
 var currentDomain = window.location.origin;
 
 if (allowedDomains.indexOf(currentDomain) === -1) {
-  window.top.location.href = "https://www.nate-games.xyz/en-us/sitelock";
+  window.top.location.href = "https://old.nate-games.xyz/en-us/sitelock";
 }
 
 function addScriptSrc(src, callback) {
