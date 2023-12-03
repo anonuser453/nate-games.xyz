@@ -7,7 +7,6 @@
 </p>
 
 <h1 align="center">Ad free nate-games</h1>
-<p align="center">Comments powered by giscus</p>
 
 
 
@@ -19,11 +18,3 @@
 - WebGL/Unity games
 - Clean UI
 - No ads LOL
-
-# Libraries used
-- jsDelivr cdn
-- [waflash](https://github.com/nate-games/waflash) flash emulator
-- [ruffle-rs](https://ruffle.rs/) flash emulator
-- [EmulatorJS](https://github.com/EmulatorJS/EmulatorJS)
-
-<a href="https://discord.gg/9mJcqwZ2a5"><img src="https://invidget.switchblade.xyz/9mJcqwZ2a5?theme=dark" alt="Join the Discord"/></a>
