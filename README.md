@@ -6,13 +6,9 @@
 </kbd>
 </p>
 
-<h1 align="center">nate-games</h1>
+<h1 align="center">Ad free nate-games</h1>
 <p align="center">Comments powered by giscus</p>
 
-> **Note**
-> **Bye bye no ads, welcome in advertisements**
-
-Website blocked? View [links](https://github.com/nate-games/nate-games.xyz/wiki/URLS)
 
 
 # Features
@@ -22,6 +18,7 @@ Website blocked? View [links](https://github.com/nate-games/nate-games.xyz/wiki/
 - HTML5 Games
 - WebGL/Unity games
 - Clean UI
+- No ads LOL
 
 # Libraries used
 - jsDelivr cdn
