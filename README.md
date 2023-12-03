@@ -6,7 +6,7 @@
 </kbd>
 </p>
 
-<h1 align="center">Ad free nate-games</h1>
+<h1 align="center">Ad-free nate-games</h1>
 
 
 
